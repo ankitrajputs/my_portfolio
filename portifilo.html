@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e8f5e9;
+        }
+
+        .hero h1 {
+            margin-bottom: 1rem;
+        }
+
+        .projects {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .project {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="about">
+        <h1>Hello, I'm Rajput AnkitSingh</h1>
+        <p>A passionate person who loves creating and innovating.</p>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project">
+            <!-- <img src="project1.jpg" alt="Project 1"> -->
+            <h3>Project 1</h3>
+            <p>A brief description of the project. Highlight key features or technologies used.</p>
+        </div>
+        <div class="project">
+            <!-- <img src="project2.jpg" alt="Project 2"> -->
+            <h3>Project 2</h3>
+            <p>A brief description of the project. Highlight key features or technologies used.</p>
+        </div>
+        <div class="project">
+            <!-- <img src="project3.jpg" alt="Project 3"> -->
+            <h3>Project 3</h3>
+            <p>A brief description of the project. Highlight key features or technologies used.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact me at <a href="mailto:rajputankit84574@gmail.com" style="color: #4CAF50; text-decoration: none;">rajputankit84574@gmail.com</a></p>
+        <p>&copy; 2025 Rajput AnkitSingh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
